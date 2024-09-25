@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/utlity.css" />
+</head>
+
+<body>
+    <div class="continer flex bg-black">
+        <div class="left">
+            <img class="invert cross" src="sorce/cross.svg" alt="">
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="logo">
+                    <img class="invert" width="120" src="sorce/logo.svg" alt="logo" />
+                </div>
+                <ul>
+                    <li><img class="invert" src="sorce/home.svg" alt="home" />Home</li>
+                    <li><img class="invert" src="sorce/search.svg" alt="search" />Search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey rounded">
+                <div class="heading">
+                    <img class="invert" src="sorce/playlist.svg" alt="" />
+                    <h2>Your Library</h2>
+                </div>
+                <div class="songlist">
+                    <ul>
+
+                    </ul>
+                </div>
+                <div class="footer">
+                    <a href="https://www.spotify.com/bd-en/legal/">Legal</a>
+                    <a href="https://www.spotify.com/bd-en/safetyandprivacy/">Safety & Privacy Center</a>
+                    <a href="https://www.spotify.com/bd-en/legal/privacy-policy/">Privacy Policy</a>
+                    <a href="https://www.spotify.com/bd-en/accessibility/">Accessibility</a>
+                    <a href="https://www.spotify.com/legal/cookies-policy/">Cookies</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="right bg-grey rounded">
+            <div class="header">
+                <div class="niv">
+                    <div class="hamburgercontiner">
+
+                        <img class="hamburger" src="sorce/hamburger.svg" alt="">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            color="#ffffff " fill="none">
+                            <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="currentColor"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            color="#ffffff" fill="none">
+                            <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="currentColor"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="button">
+                    <button class="singupbtn">Sing up</button>
+                    <button class="loginbtn">Log in</button>
+                </div>
+            </div>
+            <div class="SpotifyPlaylists"> 
+                <h1>Spotify Playlists</h1>
+                <div class="cardcontainer ">
+
+                </div>
+
+
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle">
+
+                        </div>
+                    </div>
+                    <div class="upbar">
+
+                        <div class="songinfo">
+
+                        </div>
+                        <div class="songbtn invert">
+                            <img width="35" id="previous" src="sorce/previous.svg" alt="">
+                            <img width="35" id="play" src="sorce/songon.svg" alt="">
+                            <img width="35" id="next" src="sorce/next.svg" alt="">
+                        </div>
+                        <div class="timevol">
+
+                            <div class="songtime">
+                            </div>
+                            <div class="volume">
+                                <img id="volimg" src="sorce/volume.svg" alt="">
+                                <div class="range">
+
+                                    <input type="range">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+
+    </div>
+    <script src="JS/script.js"></script>
+</body>
+
+</html>
